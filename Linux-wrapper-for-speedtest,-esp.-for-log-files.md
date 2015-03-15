@@ -1,6 +1,6 @@
 *@sivel did a terrific job on speedtest-cli.py -- thank you very much!*
 
-Thought it would be helpful to have a **wrapper which creates one-line results for a log file. It is formatted as CSV** for analysis and graphing. Here's a sample output:
+Thought it would be helpful to have a **wrapper which creates one-line results suitable for a log file. It is formatted as CSV** for analysis and graphing. Here's a sample output of: Date, Time, Ping, Download, Upload
 
 ```
 $ speedtest --log
@@ -8,6 +8,8 @@ $ speedtest --log
 2015-03-14, 08:30, 24.862, 0.50, 0.26
 2015-03-14, 11:05, 23.887, 0.49, 0.29
 ```
+
+The --log option gets the latest statistics, then shows the entire log file which can be redirected as the user wishes.
 
 With no arguments or with --simple, we would have seen:
 
