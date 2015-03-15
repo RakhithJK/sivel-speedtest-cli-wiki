@@ -1,6 +1,6 @@
-@sivel did a terrific job on speedtest-cli.py -- thank you very much!
+*@sivel did a terrific job on speedtest-cli.py -- thank you very much!*
 
-Thought it would be helpful to have a **wrapper which creates one-line results for log files. It is formatted as CSV** for analysis and graphing. Here's a sample output:
+Thought it would be helpful to have a **wrapper which creates one-line results for a log file. It is formatted as CSV** for analysis and graphing. Here's a sample output:
 
 ```
 $ speedtest --log
@@ -21,7 +21,7 @@ Download: 0.62 Mbit/s
 Upload: 0.25 Mbit/s
 ```
 
-The wrapper script, written in Bash, is available here: [https://github.com/rsvp/speedtest-linux](https://github.com/rsvp/speedtest-linux) -- and it always uses the most current version of speedtest-cli.py.
+The wrapper script, written in Bash, is available here: [https://github.com/rsvp/speedtest-linux](https://github.com/rsvp/speedtest-linux) -- and *it always uses the most current version of speedtest-cli.py.*
 
 Feel free to incorporate it into the main repo.
 
