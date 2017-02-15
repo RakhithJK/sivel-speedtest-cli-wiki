@@ -18,3 +18,10 @@ s.share()
 
 results_dict = s.results.dict()
 ```
+
+#Set a mini server
+```
+s = speedtest.Speedtest()
+s.get_best_server(s.set_mini_server("http://speedtest.test.fr/"))
+s.download()
+```
