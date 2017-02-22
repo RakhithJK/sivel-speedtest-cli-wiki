@@ -25,3 +25,13 @@ s = speedtest.Speedtest()
 s.get_best_server(s.set_mini_server("http://speedtest.test.fr/"))
 s.download()
 ```
+
+### Bind source
+```
+source = "192.168.1.100"
+speedtest.SOURCE = source
+s = speedtest.Speedtest()
+s.get_best_server()
+s.download()
+s.upload()
+```
