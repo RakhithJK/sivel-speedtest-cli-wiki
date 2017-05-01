@@ -28,6 +28,7 @@ s.download()
 
 ### Bind source
 ```
+socket.socket = speedtest.bound_socket
 source = "192.168.1.100"
 speedtest.SOURCE = source
 s = speedtest.Speedtest()
