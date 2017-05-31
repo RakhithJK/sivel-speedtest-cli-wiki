@@ -19,6 +19,12 @@ s.share()
 results_dict = s.results.dict()
 ```
 
+### To avoid `MemoryError`
+
+```
+s.upload(pre_allocate=False)
+```
+
 ### Set a mini server
 ```
 s = speedtest.Speedtest()
