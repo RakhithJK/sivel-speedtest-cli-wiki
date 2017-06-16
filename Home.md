@@ -66,7 +66,7 @@ else
 	DOWNLD=$(cat "$TMPFILE" | grep "Download: " | sed -e "s/Download: //g")
 	UPLOAD=$(cat "$TMPFILE" | grep "Upload: " | sed -e "s/Upload: //g")
 #	Display information
-	zenity --class=SpeedTest --info --height 200 --title="www.SpeedTest.net" --text="\nISP Server: <b>$SOURCE</b>\n\nTarget Server: <b>$TARGET</b>\n\nPing Speed: <b>$PING</b>\n\nDownload Speed: <b>$DOWNLD</b>\n\nUpload Speed: <b>$UPLOAD</b>"
+	zenity --class=SpeedTest --info --height 200 --title="www.SpeedTest.net" --text="\nSource: <b>$SOURCE</b>\n\nTarget: <b>$TARGET</b>\n\nPing: <b>$PING</b>\n\nDownload: <b>$DOWNLD</b>\n\nUpload: <b>$UPLOAD</b>"
 #	Remove temp file
 	rm -f $TMPFILE
 fi
