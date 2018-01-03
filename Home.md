@@ -21,12 +21,12 @@ results_dict = s.results.dict()
 
 ### To avoid `MemoryError`
 
-```
+```python
 s.upload(pre_allocate=False)
 ```
 
 ### Set a mini server
-```
+```python
 s = speedtest.Speedtest()
 s.get_best_server(s.set_mini_server("http://speedtest.test.fr/"))
 s.download()
@@ -36,7 +36,7 @@ s.download()
 
 #### v2.x
 
-```
+```python
 source = "192.168.1.100"
 s = speedtest.Speedtest(source_address=source)
 s.get_best_server()
@@ -45,7 +45,7 @@ s.upload()
 ```
 
 #### v1.x
-```
+```python
 source = "192.168.1.100"
 speedtest.SOURCE = source
 socket.socket = speedtest.bound_socket
