@@ -19,6 +19,11 @@ s.results.share()
 results_dict = s.results.dict()
 ```
 
+### Units
+
+* download - bits/s
+* upload - bits/s
+
 ### To avoid `MemoryError`
 
 ```python
